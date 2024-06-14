@@ -39,7 +39,7 @@ def create_dataset():
 
 # create_dataset()
 
-args_dir = "yolov5\\runs\\train\\exp\\weights\\last.pt"
+args_dir = "Resources\\train\\exp\\weights\\last.pt"
 model = torch.hub.load("ultralytics/yolov5", "custom", args_dir, force_reload=True)
 
 def show_result():
